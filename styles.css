@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    margin: 30px;
+    text-decoration: underline;
+}
