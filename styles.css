@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
 
 .header img {
@@ -63,3 +64,58 @@ li {
 
 /* display Styling */
 
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tea-of-the-month {
+    text-align: center;
+    width: 1000px;
+    padding-top: 100px;
+}
+
+.tea-of-the-month h2 {
+    padding-bottom: 10px;
+}
+
+.tea {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea h4 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Locations Styling */
+
+.locations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.loctaions img {
+    height: 500px;
+}
+
+.locations h2 {
+    position: absolute;
+}
+
+.adresses {
+    position: absolute;
+}
