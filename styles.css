@@ -37,3 +37,29 @@ li {
 
 /* Banner Styling */
 
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner img {
+    height: 700px;
+    width: 1200px;
+}
+
+.statement {
+    position: absolute;
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.statement h2 {
+    padding-bottom: 10px;
+}
+
+/* display Styling */
+
