@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top: 0;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+li {
+    display: inline;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+/* Banner Styling */
+
