@@ -87,6 +87,7 @@ li {
     gap: 40px;
     justify-content: center;
     padding-top: 20px;
+    width: 1000px;
 }
 
 .tea img {
@@ -106,16 +107,46 @@ li {
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: 69px;
 }
 
-.loctaions img {
+.locations img {
     height: 500px;
+    width: 1200px;
 }
 
 .locations h2 {
     position: absolute;
+    top: 55px;
 }
 
-.adresses {
+.addresses {
     position: absolute;
+    display: flex;
+    gap: 40px;
+}
+
+.squares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    line-height: 60px;
+    text-align: center;
+    opacity: 1;
+}
+
+/* contacts & footer */
+
+.contact {
+    text-align: center;
+    line-height: 60px;
+    height: 200px;
+}
+
+.footer {
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
